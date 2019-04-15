@@ -11,7 +11,7 @@ kaggle competition @ https://www.kaggle.com/c/santander-customer-transaction-pre
 
 ![Results](https://github.com/manuelfreude/kagglesantander/blob/master/santander_results.png)
 
-Of the initial 9 classifiers, the best-performing ones were Bagging, AdaBoost, MLP/neural nets and LightGBM. Fine-tuning further raised each one's performance except for MLP. The best-performing algorithm was AdaBoost with a LightGBM base estimator, which was subsequently used for predicting the customer transaction probability for the test dataset in the kaggle contest.
+Of the initial 9 classifiers, the best-performing ones were Bagging, AdaBoost, MLP/neural nets and LightGBM. Fine-tuning further raised each one's performance except for MLP. The best-performing algorithm was the tuned AdaBoost with a LightGBM base estimator, which was subsequently used for predicting the customer transaction probability for the test dataset in the kaggle contest.
 
 The initial submission ranked 1,145 out of 1,398 or top 57%, and was passed down the ranks to the top 67% of 9,038 participants at the end of the competition.
 
